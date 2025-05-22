@@ -1,0 +1,72 @@
+# Build- und Cache-Dateien
+bin/
+obj/
+
+# Lokale Entwicklungsdateien
+.vs/
+.vscode/
+
+# Abhängigkeiten
+node_modules/
+
+# Konfigurationsdateien mit sensiblen Daten
+appsettings.json
+appsettings.Development.json
+.env
+
+# Datenbankdateien
+*.db
+*.bak
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Log-Dateien
+*.log
+
+# Paketmanager-Dateien
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Migrationen
+Migrations/
+
+# Benutzerdefinierte Dateien 
+wwwroot/dist/
+
+# Temporäre Dateien
+*.tmp
+*.temp
+
+# Backup-Dateien
+*.bak
+*.old
+*.swp
+
+
+
+# NuGet-spezifische Dateien
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio spezifische Dateien
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/JetBrains spezifische Dateien
+.idea/
+*.iml
+
+# Lokale Testdateien
+test-results/
+coverage/
+
+# Sonstige temporäre Dateien
+*.pid
+*.seed
+*.pid.lock
